@@ -66,11 +66,22 @@ export const contactData = {
 export const footerData = {
   networks: [
    
-    {
+    {   
       id: nanoid(),
       name: 'github',   
       url: 'https://github.com/sodapapa',
     },
+    {   
+      id: nanoid(),
+      name: 'github',   
+      url: 'https://github.com/sodapapa',
+    },
+    {   
+      id: nanoid(),
+      name: 'github',   
+      url: 'https://github.com/sodapapa',
+    },
+    
   ],    
 };
 
