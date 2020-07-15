@@ -1,26 +1,26 @@
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
-export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+export const headData = {   
+  title: 'hong | Spring Developer', // e.g: 'Name | Developer'
+  lang: 'ko', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
-};
+  title: 'port',
+  name: 'hong',
+  subtitle: 'test',
+  cta: '11',
+};    
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'test 1',
+  paragraphTwo: 'test 2',   
+  paragraphThree: 'test 3',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -30,15 +30,15 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: '',
-    info: '',
-    info2: '',
-    url: '',
+    info: 'info 1 test info1',
+    info2: 'info 2 test info 2',
+    url: '',    
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: '',    
     info: '',
     info2: '',
     url: '',
@@ -59,33 +59,19 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: '415hdh@gmail.com',
 };
 
-// FOOTER DATA
+// FOOTER DATA    
 export const footerData = {
   networks: [
+   
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'github',   
+      url: 'https://github.com/sodapapa',
     },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: '',
-    },
-  ],
+  ],    
 };
 
 // Github start/fork buttons
